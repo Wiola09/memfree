@@ -12,7 +12,7 @@ import {
 import { getFileContent } from "./parser";
 import { checkAuth, getToken } from "./auth";
 
-const allowedOrigins = ["http://localhost:3000", "https://www.memfree.me"];
+const allowedOrigins = ["https://memfree-test-memfree.tfttmp.easypanel.host", "http://localhost:3000", "https://www.memfree.me"];
 
 async function handleRequest(req: Request): Promise<Response> {
   const path = new URL(req.url).pathname;
