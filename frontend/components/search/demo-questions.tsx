@@ -6,34 +6,34 @@ import Link from 'next/link';
 export async function DemoQuestions() {
     const t = await getTranslations('DemoQuestions');
     const demoQuestions = [
-        {
-            title: t('title1'),
-            link: '/share/Ed21pa5',
-        },
         // {
-        //     title: t('title2'),
-        //     link: '/share/GgxtPak',
+        //     title: t('title1'),
+        //     link: '/share/Ed21pa5',
         // },
-        {
-            title: t('title3'),
-            link: '/share/E6lIW1t',
-        },
-        {
-            title: t('title4'),
-            link: '/share/WreYuQn',
-        },
-        {
-            title: t('title5'),
-            link: '/share/WkKsbm8',
-        },
-        {
-            title: t('title6'),
-            link: '/share/lXNTOIT',
-        },
-        {
-            title: t('title7'),
-            link: '/share/TZ3wyPV',
-        },
+        // // {
+        // //     title: t('title2'),
+        // //     link: '/share/GgxtPak',
+        // // },
+        // {
+        //     title: t('title3'),
+        //     link: '/share/E6lIW1t',
+        // },
+        // {
+        //     title: t('title4'),
+        //     link: '/share/WreYuQn',
+        // },
+        // {
+        //     title: t('title5'),
+        //     link: '/share/WkKsbm8',
+        // },
+        // {
+        //     title: t('title6'),
+        //     link: '/share/lXNTOIT',
+        // },
+        // {
+        //     title: t('title7'),
+        //     link: '/share/TZ3wyPV',
+        // },
     ];
     return (
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8" dir="auto">
